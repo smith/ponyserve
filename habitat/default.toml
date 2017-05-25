@@ -1,0 +1,15 @@
+# The port the service runs on
+port = 9292
+
+# The message
+message = "Friendship is magic"
+
+# The name of the pony. A blank string will give a random pony. Go to the /list
+# endpoint to see a list of ponies.
+pony = ""
+
+# The balloon style. Can be one of: "ascii", "cowsay", "linux-vt", "round", or "unicode"
+balloon = "cowsay"
+
+# The name of a pony to quote. Will override the "message"
+quote = ""
